@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    margin-top: 300px;
+}
+.container{
+    padding: 10px;
+    max-width: 20%;
+    background-color: #2d333b;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    padding: 5px;
+}
+.esqsenha{
+    padding: 5px;
+}
+#entrar{
+    margin-top: 5px;
+}
+#naoconta{
+    color: white;
+}

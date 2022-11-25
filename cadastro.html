@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inputc">
+            <input type="email" id="email" placeholder="Digite seu Email">
+            <input type="password" id="senhacadastro" placeholder="Digite sua senha">
+        </div>
+        <div class="radio">
+            <input type="radio" name="a1" id="professor" onclick="des()">Professor
+            <input type="radio" name="a1" id="aluno" onclick="des()">Aluno
+        </div>
+        <div class="inputcc">
+            <input type="text" id="matricula" placeholder="Digite sua matricula">
+            <input type="text" id="nome" placeholder="Digite seu nome">
+            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome">
+            <input type="date" id="nascimento">
+            <input type="text" id="endereco" placeholder="Digite seu endereço">
+        </div>
+        <div class="select" id="select">
+            <select id="serien">
+               <option value="1">1º</option>
+               <option value="2">2º</option>
+               <option value="3">3º</option> 
+            </select>
+            <select id="seriel">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+            </select>
+        </div>
+        <a href="/login.html">Já tem uma conta?</a>
+    </div>
+
+    <script>
+        function des(){
+            let prof = document.getElementById('professor')
+            let aluno = document.getElementById('aluno')
+            let select = document.getElementById('select')
+            if(prof.checked == true){
+                document.getElementById('select').style.display = 'none'
+            }else if(aluno.checked == true){
+                document.getElementById('select').style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

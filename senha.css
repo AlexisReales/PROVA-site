@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    margin-top: 300px;
+}
+.container{
+    padding: 10px;
+    max-width: 20%;
+    background-color: #2d333b;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.input{
+    padding: 10px;
+}
+button{
+    padding: 5px;
+}
+#recuperar{
+    padding: 5px;
+}
